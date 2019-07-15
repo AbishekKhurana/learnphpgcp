@@ -1,5 +1,6 @@
 runtime: php
 env: flex
+gunicorn==19.9.0
 runtime_config:
     document_root: .
 env_variables:
